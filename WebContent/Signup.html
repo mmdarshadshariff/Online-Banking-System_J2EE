@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript"></script>
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<style>
+textbox {
+	background-color: #0099CC;
+	border: 1px solid #008000;
+}
+
+input {
+	text-align: center;
+	font-family: "Comic Sans MS", Times, serif;
+	font-size: 15px;
+	padding-right: 20px;
+	display: inline-block;
+	min-width: 150px;
+}
+
+input[type=button] {
+	padding: 5px 15px;
+	color: white;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.textbox {
+	border: 2px solid #456879;
+	border-radius: 10px;
+	height: 10px;
+	width: 300px;
+}
+</style>
+<script type="text/javascript">
+
+function check()
+{
+	if(document.signup.t0.value=="")
+	{
+	alert("Please enter your name");
+	return false;
+	}
+if(document.signup.t1.value=="")
+{
+alert("Please enter a username");
+return false;
+}
+var letters = /^[A-Za-z0-9]+$/;  
+   if(document.signup.t1.value.match(letters))  
+     {  
+       
+     }  
+   else  
+     {  
+     alert("User name should include only letters and numbers");  
+     return false;  
+     }  
+if(document.signup.t2.value=="")
+{
+alert("please enter a email-id");
+return false;
+}
+  
+ var email = document.getElementById('1');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email.value)) {
+    alert('Please provide a valid email address');
+    email.focus;
+return false;
+}
+
+if(document.signup.t3.value=="")
+{
+alert("please enter a mobile number");
+return false;
+}
+
+if(isNaN(document.signup.t3.value))
+{
+alert("please enter a valid mobile number");
+return false;
+}
+var str=document.signup.t3.value;
+var n=str.length;
+if(n!=10)
+{
+alert("enter 10 digit mobile number");
+return false;
+}
+
+
+var password = document.getElementById("2"),
+confirm_password = document.getElementById("3");
+var str1=document.signup.t4.value;
+var q=str1.length;
+if(q<=7)
+{
+alert("Password should be 8 or more characters");
+return false;
+}
+if(password.value != confirm_password.value) 
+{
+    alert("Passwords Don't Match");
+    return false;
+}
+
+if(document.signup.t6.value=="")
+{
+alert("please enter your address");
+return false;
+}
+if(document.signup.t8.value=="")
+{
+alert("please enter your city");
+return false;
+}
+var letters1 = /^[A-Za-z]+$/;  
+   if(document.signup.t8.value.match(letters1))  
+     {  
+       
+     }  
+   else  
+     {  
+     alert("Please enter a valid city name");  
+     return false;  
+     }  
+
+if(document.signup.t9.value=="")
+{
+alert("please enter your state");
+return false;
+}
+var letters2 = /^[A-Za-z]+$/;  
+   if(document.signup.t9.value.match(letters2))  
+     {  
+       
+     }  
+   else  
+     {  
+     alert("Please enter a valid state name");  
+     return false;  
+     }  
+
+return true;
+
+}
+</script>
+<style>
+body {
+	background-image: url("mainbga.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Berlin Sans FB Demi", Times, serif;
+	font-size: 75px;
+	color: black;
+	height: 50px;
+}
+
+b {
+	text-align: left;
+	font-family: "Baskerville Old Face", Times, serif;
+	font-size: 25px;
+	color: black;
+	padding-right: 30px;
+	display: inline-block;
+	width: 300px;
+	/* min-width:100px; */
+}
+</style>
+</head>
+<body>
+	<br>
+
+	<h1>Registration</h1>
+
+	<br>
+	<br>
+	<form name="signup" method="post" action="signupservlet"
+		onsubmit="return check()">
+
+		<div style="margin-left: 30em;">
+			<b>Enter your name:</b> <input class="textbox" type="text" name="t0"
+				size="40" align="right" style="height: 40px;" value="arshad"><br>
+			<b>Age:</b> <input class="textbox" type="text" name="t11" size="40"
+				align="right" style="height: 40px;" value="22"><br> <b>Enter
+				Username:</b> <input class="textbox" type="text" name="t1" size="40"
+				align="right" style="height: 40px;" value="arshad123"
+				placeholder="Should be combination of letters &amp; numbers"
+				pattern="[a-zA-Z].{6,}"><br> <b> Enter your email
+				ID:</b> <input class="textbox" type="text" name="t2" id="1" size="40"
+				style="height: 40px;" value="mmdarshad@gmail.com"> <br>
+			<b>Gender:</b>
+			<div class="gender" style="margin-left: 20em; margin-top: -1em;">
+				<input class="radio" type="radio" name="t12" size="20" align="right"
+					style="height: 20px;" value="male" checked><b>Male</b> <br>
+				<input class="radio" type="radio" name="t12" size="20" align="right"
+					style="height: 20px;" value="female"><b>Female</b> <br>
+			</div>
+
+			<div class="row " style="margin-top: 6.1em;"></div>
+			<div class="col-sm-6">
+				<label><b>Date of Birth :</b></label>
+			</div>
+			<div class="col-sm-6">
+				<input type="text" name="t14" id="date" value="26/09/1994"
+					placeholder="select your DOB" style="margin-left: -2em;" />
+				<script type="text/javascript">
+                $(function () {
+                    $("#date").datepicker();
+                    });
+                </script>
+
+			</div>
+			<b>Account Type :</b> <select class="acctype" name="t13">
+				<option value="savings">Savings Account</option>
+				<option value="current">Current Account</option>
+				<option value="salary">Salary Account</option>
+
+			</select> <br> <b>Enter Mobile number:</b> <input class="textbox"
+				type="text" name="t3" size="40" value="9876543210"
+				style="height: 40px;"> <br> <b>Enter password:</b> <input
+				class="textbox" type="password" name="t4" id="2" size="40"
+				style="height: 40px;" value="qwertyuiop"
+				placeholder="Should contain 8 or more characters"> <br>
+			<b> Confirm password:</b> <input class="textbox" type="password"
+				name="t5" id="3" size="40" style="height: 40px;" value="qwertyuiop">
+			<br> <b> Address:</b> <input class="textbox" type="text"
+				name="t6" size="40" value="qwertyuiopasdfghjklzxcvbnm"
+				style="height: 40px;"><br> <b>City:</b> <input
+				class="textbox" type="text" name="t8" size="40"
+				style="height: 40px;" value="chennai"> <br> <b>
+				State:</b> <input class="textbox" type="text" name="t9" size="40"
+				style="height: 40px;" value="tamilnadu"><br> <b>
+				Country:</b> <input class="textbox" type="text" name="t10" size="40"
+				style="height: 40px;" value="INDIA" readonly=""><br> <br>
+
+			<b>Enter Amount:</b> <input class="textbox" type="text" name="t15"
+				size="40" value="5000" style="height: 40px;"> <br> <input
+				type="submit" value="submit"> </a>
+
+
+			<!--  <input class="button" type="submit" id="11" value="SUBMIT"> -->
+
+		</div>
+
+
+	</form>
+
+</body>
+</html>

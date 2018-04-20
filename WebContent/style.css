@@ -1,0 +1,2027 @@
+/*RESET.CSS*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*----- Framework -----*/
+
+body{
+	font: normal 12px/16px arial;  
+	padding:0 0 0px 0;
+	background-color:white;
+	background: url("../images/tech.jpg") repeat 0 0;	
+}
+html{
+	overflow-y:auto;
+}
+
+#shawdow{
+	margin:0 auto;
+	background: url("../images/body-shawdow.png") repeat-y  bottom center;
+}
+
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	border:0px solid red;
+	overflow:hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+img{
+	border:0;
+	vertical-align:middle;
+}
+
+.bg_none{
+	background:none ! important
+}
+
+.bdr_none{
+	border:0 ! important;
+}
+.void_space, .void_fullspace{
+	margin:0 ! important;
+}
+.void_fullspace{
+	padding:0 ! important;
+}
+.void_link{
+	cursor:default ! important;
+}
+
+.void_link:hover{
+	text-decoration:none ! important;
+	color:#3A3A3A ! important;
+}
+.clearfix{
+	 height: 0;
+	 clear: both;
+	 visibility: hidden;
+}
+
+/*----- Framework Ends -----*/
+
+/*----- Typography -----*/
+
+
+h2,h3,h4,h5,#content_area ul,#content_area p{
+	margin:10px 0 0 0;
+	padding:0 0 5px 0
+}
+
+h2,h3,h4,h5{
+	padding:10px 0 5px 0;
+	margin:0;
+}
+
+h2{
+	font-size:20px;
+}
+
+h3{
+	font-size:16px;
+}
+
+
+/*----- Typography Ends -----*/
+
+/*----- Grouping -----*/
+.header_bottom_middle, #product_list_navigation li a,#top_middle,#bottom_middle,.tab_content_active,#info_navigation li a,.click,#login_click,.clearfix, .home_navigation .menu_hoverbtm,.ie6_alertbox{
+	display:block ! important
+}
+
+#logo, #fontSizeMinus, #fontSizePlus,#online_sbi_logo,#theme1,#theme2,#theme3,#hindi,#english,#secure_safe_text,#footer_navigation li a,#copyright,#browser_view,#reset,.slider-item-markers li a,#breadcrumb_pointer,#pointer_arrow,#new_user,.faq_viewmore, .disclaimer_accept, .disclaimer_reject,#atm,#visa,#master, #rupay, .word_icon, .pdf_icon,.link_for_ie,.alertbox_icon,.alertbox_logo{
+	display:inline-block;
+}
+
+.slider-item-slide,.faq_hidden,.faq_viewmore_content, .trigger_less, .faq_viewmore_collapse, .expand_content,#netbanking_popup,.product_content,.expand_collapse_parent ul,#moveToTop,.overlay{
+	display:none;
+}
+
+#header_navigation li, #navigation li,#tab-services li,.slider-item-markers li{
+	display:inline;
+}
+
+#header,#logo,#footer_base, #mid,#tab-services,#content-services,.slider-item,.tab-list-data-alpha li,.tab-list-data-beta li,#content_area,.faq_block,#sitemap,.highlight_select, .disclaimer_buttons, h2,.product_container,.overlay,#bodyContent{
+	overflow:hidden
+}
+
+#header_core_info, #online_sbi_logo, #footer_navigation,#browser_view,#login,.tab-list-data-beta,.sidebar-beta,#navgation_inner_container,#login_inner_bg,.trigger, .nav_cont_bg, .back_bg,#virtual_card_img,.alertbox_close, .tab_more{
+	float:right
+}
+
+#header_navigation,#font-resize,#theme_switcher,#logo,.sidebar,#footer_navigation li,#copyright,#footer,#slider,#tab-contents,#tab-services li a,#tab-services li a span,.tab-list-left,#tab-services li,.tab-list-data-alpha,#nav_container,.navigation_hover_bg,#navigation li,#content-services,#slider,.slider-item-markers li,.tab-list-data-alpha li a,.tab-list-data-beta li a,.breadcrumb_parent,.breadcrumb_link,#breadcrumb_child,#breadcrumb_pointer,.breadcrumb_link,#breadcrumb_child,#bread_crumb,#content-sidebar,.faq_ans,.faq_hidden, .content_navigation_alpha,.block,#content_area,.select_container,#block_alpha,#block_beta,#netbanking_branches,.netbanking_button,.page_navigation li, .heading,.back, #login_inner,.navigation_a, .navigation_b, .navigation_c, .navigation_d,.alertbox_icon_container,.alertbox_content, .tab_less,#verisign,#tab-contents .void_link{
+	float:left
+}
+
+#wrapper,#header_bottom_curve,.sidebar_heading,#top,#bottom,#footer,#navigation,#login,#tab-contents,#nav_container,#navigation li a,#content-services,#slider,.slider-item,#tab-services,#breadcrumb_pointer,#bread_crumb{
+	position:relative;
+}
+
+.header_bottom_left_curve,.header_bottom_right_curve,#arrow,#top_left_curve,#top_right_curve,#bottom_left_curve,#bottom_right_curve,#how_to_secure,#navigation .menu_hoverbtm,#login_click,#user_registration,#tab_data_right_curve,.slider-item-slide,.slider-item-markers,#tab_data_right_curve,#pointer_arrow,#netbanking_popup,.ie6_alertbox{
+	position:absolute;
+}
+
+link_highlight:hover, .content_navigation li a:hover, .content_navigation_alpha li a:hover,.tab-list-data-alpha li a:hover,.tab-list-data-beta li a:hover, .sub-tab-list li a:hover,.sitemap_list a:hover,#user_registration,.link_highlight:hover, .content_navigation li a:hover, .content_navigation_alpha li a:hover, #content_area p a:hover,#card_list li a:hover,.product_links:hover,.link_for_ie:hover{
+	text-decoration:underline
+}
+
+#home_bg,#login_bg,#whats_new_bg,#about_verisign_bg,#help_bg,#services_bg, #value_services_bg,#faq_bg,#resources_bg,#useful_links_bg,#security_bg,#fontSizeMinus, #fontSizePlus,#footer_navigation li a:hover,.breadcrumb_link,#breadcrumb_child{
+	color:#000;
+}
+
+#tab-contents,#wrapper,.ie6_alertbox,.alertbox_icon_container{
+	background-color:#fff;
+}
+
+.sidebar_heading,#secure_safe_text,#navigation li a,#user_registration,.content_table tr th.caption{
+	color:#fff;
+}
+
+#safe_banking span,#footer_base{
+	font-size:11px;
+}
+
+#navigation li a,#toll span,.faq_ques,.text_highlight,#info_navigation li a, #safe_banking, .accordian_trigger,#card_list li a,#netbanking_content_heading,.expand_collapse_child li a{
+	font-size:13px;
+}
+
+#user_registration,#product_list_navigation li a,#home_bg,#login_bg,#whats_new_bg,#about_verisign_bg,#help_bg,#services_bg, #value_services_bg,#faq_bg,#resources_bg,#useful_links_bg,#security_bg,.expand_collapse_parent li a{
+	font-size:14px
+}
+
+.highlt_red,strong,.faq_ques,.text_highlight,#navigation li a,.sidebar_heading,#product_list_navigation li,#tab-services li a,.highlight,#info_navigation li a, #safe_banking,#breadcrumb_child,.highlight_heading,.highlight_text,.content_table tr th.caption,#home_bg,#login_bg,#whats_new_bg,#about_verisign__bg,#help_bg,#services_bg,#value_services_bg,#faq_bg,#resources_bg,#useful_links_bg,#security_bg,h2,h3,h4,h5, .accordian_trigger,.expand_collapse_child li a,.expand_collapse_parent li a,#contact_us .number_highlight, .content_table tr th{
+	font-weight:bold
+}
+
+.product_links,#moveToTop{
+	cursor:pointer;
+}
+
+.word_icon,.pdf_icon {
+	vertical-align: bottom;
+}
+
+.sidebar_heading, .disclaimer_buttons, #ssl_example, .ie-ssl,.mozilla-ssl,.opera-ssl,.chrome-ssl,#card_list li, .align_center{ 
+	text-align:center;
+}
+#content_area p, #sitemap p{
+	line-height:20px;
+	color:#343434
+}
+
+#tab-services li.selected a span,#tab-services li .shadow_right,#tab-services li a span, #tab-services li.selected a,#tab-services li .shadow_left,#tab-services li a, #tab_data_right_curve, .nav_cont_bg{
+	background: url("../images/sprite_b.png") no-repeat;
+}
+
+
+.header_bottom_left_curve, .header_bottom_right_curve,#fontSizeMinus,#fontSizePlus,reset, #theme1, #theme2, #theme3,#arrow,#reset,#user_registration, #header_navigation,#pointer_arrow,.breadcrumb_bg{
+	background: url("../images/icon.png") no-repeat;
+}
+
+.header_bottom_left_curve, .header_bottom_right_curve{
+	width:10px;
+	top:0;
+}
+
+#header_bottom_curve, .header_bottom_middle, .header_bottom_left_curve, .header_bottom_right_curve{
+	height:10px;
+}
+
+#fontSizeMinus,#fontSizePlus,#reset{
+	height:9px;
+	vertical-align:top
+}
+
+#theme1,#theme2,#theme3{
+	width:15px;
+	height:26px;
+	margin:0 5px 0 0
+}
+
+#logo,#online_sbi_logo{
+	text-indent: -9999px;
+}
+
+#top_left_curve,#top_right_curve,#bottom_left_curve,#bottom_right_curve{
+	background: url("../images/header_curve.png") no-repeat 0 0;
+	width:14px;
+	height:14px;
+}
+
+#top_left_curve,#top_right_curve{	
+	top:0
+}
+
+#bottom_left_curve,#bottom_right_curve{	
+	bottom:0
+}
+
+#top_left_curve,#bottom_left_curve,.header_bottom_left_curve{
+	left:0;
+}
+
+#top_right_curve,#bottom_right_curve,.header_bottom_right_curve{
+	right:0
+}
+
+#top_middle,#bottom_middle{
+	margin:0 14px;
+	height:14px;
+}
+
+#mid,#top_middle,#bottom_middle{
+	background:#eaeaea;	
+}
+
+#product_list_navigation li a,#info_navigation li a, #info_navigation #safe_banking{
+	background: url("../images/menu_icon.png") no-repeat 0 0;	
+}
+
+#toll,#safe_banking{
+	margin-top: 0 !important;
+}
+
+#fontSizeMinus,#fontSizePlus{
+	margin:0 5px 0 0;
+}
+
+#navigation_inner_container,#navigation, .nav_cont_bg{
+	height:33px;
+}
+
+#slider,.slider-item,.slider-item-slide{
+	width:820px; height:207px;
+}
+
+.slider-item,.slider-item-markers{
+	 padding:0;margin:0;
+}
+
+.tab-list-data-alpha li,.tab-list-data-beta li{
+	margin:0 0 8px 0;
+	padding:0;
+}
+
+.tab-list-data-alpha li a,.tab-list-data-beta li a,.sub-tab-list li a, .tab-list-data-beta li .void_link, .tab-list-data-alpha li .void_link {
+	color: #3A3A3A;
+    line-height: 20px;
+    padding: 0 0 0 15px;
+}
+
+.tab-list-data-alpha li a,.tab-list-data-beta li a, .tab-list-data-beta li .void_link ,  .tab-list-data-alpha li .void_link, .tab-list-data-beta li .void_link ,  .tab-list-data-alpha li .void_link  {
+	background: url("../images/parent_bullet.png") no-repeat scroll left 7px transparent;
+}
+
+.tab-list-data-alpha li a:hover,.tab-list-data-beta li a:hover, .sub-tab-list li a:hover,.sitemap_list a:hover{
+	color:#0991cd;
+}
+
+.highlight,#header_navigation li a:hover {
+	color:#7b1818;
+}
+
+.breadcrumb_parent,#breadcrumb_child{
+	color: #0D4379;
+    height: 28px;
+    padding: 9px 0 0 30px;
+}
+
+.sub-tab-list li a, .content_navigation .content_sub_list li, .content_navigation_alpha .content_sub_list li, .sub-tab-list li .void_link {
+	background: url("../images/child_bullet.png") no-repeat scroll left 7px transparent;
+}
+
+.faq_ans,.faq_ques{
+	margin:0px!important;
+}
+
+.faq_block .content_navigation,.faq_ans{
+	padding:0px!important;
+}
+
+.faq_viewmore,.faq_hidden,#nav_container,.navigation_hover_bg,#bread_crumb,#footer{
+	width: 100%;
+}
+
+
+#home_bg,#login_bg,#whats_new_bg,#value_services_bg,#about_verisign_bg,#help_bg,#services_bg,#faq_bg,#resources_bg,#useful_links_bg,#security_bg{
+	 padding: 4px 0 4px 45px;
+}
+
+.sbi_oxipay .highlight_box, .sbi_instapay .highlight_box{
+	border:2px solid #fff;
+	background-color:#ececec ! important;	
+}
+
+#tab-services li.selected, .accordian_block{
+	border-bottom:0px! important;
+}
+
+#atm,#visa,#master{
+	  padding: 30px 0 0;
+}
+
+.card_title,#card_list li a,h2,h3,h4,h5{
+	color:#0358AB
+}
+
+.netbanking_button, .netbanking_button_up, #online_sbi_logo, #login_click, #verisign, #how_to_secure, .trigger_more, .trigger_less, .faq_viewmore_expand, .faq_viewmore_collapse, #login_inner_bg, #hindi, #english, .back_bg, .word_icon, .pdf_icon, .phone_number, .navigation_a li, .navigation_b li, .navigation_c li, .navigation_d li, .disclaimer_accept, .disclaimer_reject{
+	background-image: url("../images/sprite_a.png") ! important;
+	background-repeat:no-repeat; 
+}
+
+.navigation_a li, .navigation_b li, .navigation_c li, .navigation_d li{
+	background-position:-141px -23px ! important;
+}
+
+
+
+.word_icon,.pdf_icon {
+	width: 20px; 
+	height: 20px;
+}
+
+.tab_more, .tab_less,.tab_more_new, .tab_less_new{ 
+	width:19px; 
+	height:21px;
+	opacity:0.5;
+	cursor:auto;
+	filter: alpha(opacity=50);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.tab_more_new{
+	float:right
+}
+
+.tab_less_new{
+	float:left
+}
+
+
+/*----- Grouping Ends -----*/
+
+/*----- Header -----*/
+#header h2{
+	padding:0px ! important;
+}
+
+#logo{
+	width:199px;
+	height:57px;
+	margin:8px 0 0 34px;
+	background: url("../images/logo.png") no-repeat 0 0;
+}
+
+#header_core_info{
+	width:614px;
+}
+
+.hindi_header_core_info{
+	width:642px ! important;
+}
+
+#header_navigation{
+	background-position: -18px -167px;
+}
+
+#header_navigation ul{
+	background:#f0eeee;
+	padding:5px 0px 0 10px;
+}
+
+#header_navigation li{
+	padding:0 0 0 0px;
+	border-right:1px solid #0957A4;
+	margin:0 0 0 11px
+}
+
+#header_navigation li a{
+	margin:0 11px 0 0;
+	color:#0957a4;
+	font-size:11px;
+}
+
+#header_navigation li.about{
+	background-position: 26px -148px;
+	margin:0 0 0 0;
+}
+
+#header_navigation li.registration_form{
+	background-position: 79px -148px;
+}
+
+#header_navigation li a.space_none{
+	margin:0
+}
+
+#header_bottom_curve{
+	width:155px;
+}
+
+.hindi_header_bottom_curve{
+	width:242px!important;
+}
+
+.header_bottom_left_curve{
+	background-position: -18px -167px;
+}
+
+.header_bottom_middle{
+	margin:0 10px;
+	background: #f0eeee
+}
+
+.header_bottom_right_curve{
+	background-position: -32px -167px;
+}
+
+#font-resize{
+	margin:10px 0 0 10px
+}
+
+#fontSizeMinus{
+	background-position: -26px -186px;
+	width:12px;
+}
+
+#fontSizePlus{
+	background-position: -26px -202px;
+	width:15px;
+}
+
+#reset{
+	background-position: -26px -218px;
+	width:15px;
+}
+
+#theme_switcher{
+	margin:0 0 0 10px
+}
+
+#theme1{
+	background-position:-3px -4px;
+}
+
+#theme2{
+	background-position:-22px -4px;
+}
+
+
+#online_sbi_logo{
+	background-position:-113px -1046px;
+	width:72px;
+	height:49px;
+	margin:5px 20px 0 0;
+}
+
+#nav_container{
+	margin: 2px 0 0;
+	background: url("../images/banner_bg.png") repeat-x left bottom;
+	height:40px;
+}
+.nav_cont_bg{
+	background-position: -144px -416px;
+	background:url("../images/menu_bg.jpg") repeat-x left top;
+}
+#navgation_inner_container{
+	margin:0;
+	background: url("../images/left-menu.png") no-repeat left top;
+}
+
+#navigation{
+	padding:0 25px;
+	margin: 0 0 0 7px;	
+	float:left; 
+	width:600px
+}
+
+
+#navigation .menu_hoverbtm {
+    background: url("../images/menu_hover.jpg") repeat-x;
+    height: 33px;
+    left: 20px;
+    margin: 0;
+    padding-right: 12px;
+    top: 0px;
+    width: 37px;
+    z-index: 50;
+}
+
+.navigation_hover_bg{
+	background:url("../images/tab_right.png") no-repeat right -147px;
+	height: 35px;
+	margin: 0 0 0 10px;
+}
+
+
+
+#navigation li{
+	margin:0 25px 0 0;
+	height:22px;
+}
+
+#navigation li a{
+	line-height: 33px;
+	z-index:100;
+	padding:10px 0;
+}
+
+.inner_navigation .menu_hoverbtm{
+	display:none ! important;
+}
+
+/*----- Header Ends -----*/
+
+/*----- Banner -----*/
+.slider-item-markers{
+	top:0px;
+	right:0px;
+	background:  url("../images/slider_bg.png") no-repeat;
+	width:60px;
+	height:23px;
+	padding-left:14px;
+}
+
+.slider-item-markers li{
+	 margin:2px 0px 0 10px; 
+}
+
+.slider-item-markers li a{
+	color:#000;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.slider-item-markers li.active-marker a{
+	color:#2D8FCE;
+	text-decoration:none;
+}
+
+.slider-item li a{
+    display: block;
+    height: 211px;
+    width: 822px;
+}
+
+#banner-a{
+	background:  url("../images/banner1.jpg") no-repeat 0 0;
+	display:list-item;
+}
+
+#banner-b{
+	background:  url("../images/banner2.jpg") no-repeat 0 0;
+}
+#banner-c{
+	background:  url("../images/banner3.jpg") no-repeat 0 0;
+}
+
+
+#login{
+	background: url("../images/login_bg.png") repeat-x 0 0;
+	height:207px;
+	width:180px;
+}
+
+#login_click{
+	background-position:-76px -955px;
+    font-size: 26px;
+    height: 65px;
+    right: 0;
+    top: 63px;
+    width: 147px;
+	line-height:40px;
+}
+
+#login_click a{
+	float: left;
+    padding: 0 58px 0 25px;
+	color:#3b9adc
+}
+
+#user_registration{
+	background-position: -22px -30px;
+    height: 21px;
+    padding:7px 0 0 20px;
+    right: 3px;
+    top: 137px;
+    width: 140px;
+}
+
+/*----- Banner Ends -----*/
+
+/*----- Content -----*/
+
+.heading{ 
+	line-height:23px; /* For IE7 */
+	width:90%;
+}
+
+#content{
+	margin-bottom: 10px;
+}
+
+/*Home Sidebar Left*/
+.sidebar{
+	width:220px;
+	padding:0 0 25px 0;
+}
+
+.sidebar_heading{
+	background: url("../images/heading_bg.png") repeat-x 0 0;
+	height:28px;
+	font-size:16px; 
+	padding: 13px 0 0;
+}
+
+#arrow{
+	bottom:-12px;
+	left:102px;
+	background-position: -20px -66px;
+	width:20px;
+	height:15px
+}
+
+#product_list_navigation{
+	width:187px;
+	 margin: 0 0 0 15px;
+}
+
+.inside_product_navigation {
+	margin:0 0 0 21px ! important;
+}
+
+#product_list_navigation li{
+	background:#f1f0f0;
+	border:1px solid #d4d1d1;
+	margin:0 0 1px 0;
+}
+
+
+#product_list_navigation li a{
+	padding:18px 0 18px 59px;
+	color:#034a92;
+}
+
+#tdr-stdr{
+	background-position:14px -571px !important; 
+}
+
+#tdr-stdr:hover{
+	background-position:14px -658px !important; 
+}
+
+#product_list_navigation .hindi_tdr-stdr{
+	background-position:14px -564px !important; 
+}
+
+#product_list_navigation .hindi_tdr-stdr:hover{
+	background-position:14px -651px !important; 
+}
+
+#e-tax{
+	background-position:14px  -87px !important; 
+}
+
+#e-tax:hover{
+	background-position:14px  -133px !important; 
+}
+
+#e-file{
+	background-position:14px  -184px !important; 
+}
+
+#e-file:hover{
+	background-position:14px  -238px !important; 	
+}
+
+#demat{
+	background-position:14px  -285px !important; 
+}
+
+#demat:hover{
+	background-position:14px  -337px !important; 
+}
+
+#asba{
+	background-position:14px  -825px !important; 
+}
+
+#asba:hover{
+	background-position:14px  -882px !important; 
+}
+
+/*Home Sidebar Left Ends*/
+
+/*Home Mid-Content*/
+#content-services{
+    margin-top: -31px;
+    width: 560px;
+	z-index:101;
+}
+
+#top_right_curve{
+	background-position:-25px 0px;
+}
+
+#bottom_left_curve{
+	background-position:0px -21px;
+}
+
+#bottom_right_curve{
+	background-position: -25px -21px;
+}
+
+#mid{
+	padding:0 10px 0px 10px
+}
+
+/*Tab*/
+#tab-services{
+	width:540px;
+	z-index:99;
+}
+
+#tab-contents{
+	border:1px solid #bdbdbd;
+	border-top:0;
+	margin:0 0 0 0;
+	width: 516px;
+	min-height:250px;
+	padding: 15px 0 0 19px;
+}
+
+#tab_data_right_curve{
+	background-position: -86px -198px;
+	top:-2px;
+	right:-2px;
+	width:120px;
+	height:21px;
+	z-index:98;
+}
+
+#tab-services li{
+	margin-right:0px;
+}
+
+#tab-services li a{
+	margin: 0 0 0 0px;
+	background-position: -143px -317px;
+	height:40px;
+	padding:0 0 0 5px;
+	color:#4a4a4a;
+	 font-size: 16px;
+	line-height:46px;
+}
+
+#tab-services li a span{
+	background-position: right -53px !important;
+   	height:40px;
+    margin: 0px 0 0 5px;
+    padding: 0 15px 0 7px;
+	cursor:pointer;
+}
+
+
+.hindi_tab-services li a span{
+    padding: 0 15px 0 11px!important;
+}
+
+.sub-tab-list{
+	margin:10px 0 0 15px;
+}
+
+
+#tab-services li.selected a{
+	background-position: -143px -229px;
+	color:#0061a5;
+}
+
+#tab-services li .shadow_left{
+	background-position: -143px -274px ! important;
+}
+
+
+#tab-services li.selected a span{
+	background-position:  right -7px !important;
+}
+
+#tab-services li .shadow_right{
+	background-position:right -98px  !important;
+}
+
+.tab_content_data{
+	display:none;
+	overflow:hidden;
+}
+
+.tab_content_data_new {
+    display: none;
+    overflow: hidden;
+}
+
+.tab-list-data-alpha{
+	width:260px;
+}
+
+.tab-list-data-beta{
+	width:240px
+}
+
+.tab-list-data-beta-innerlevel{
+	margin:0 0 0 20px;
+}
+
+.tab_less,.tab_less_new{  
+	background: url("../images/tabslider_right.png") no-repeat 0 0; 
+}
+
+.tab_more,.tab_more_new{ 
+	background: url("../images/tabslider_left.png") no-repeat 0 0; 
+}
+
+.tab_arrow{ 
+	bottom: 15px;
+	left: 0;
+	position: absolute;
+	width:100%;
+}
+
+.tab_arrow_active,.tab_arrow_active_new{ 
+	cursor:pointer; 
+	opacity:1;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+	
+/*Home Mid-Content Ends*/
+
+
+/*Home Sidebar Right*/
+#hindi{
+	background-position: -105px -416px;
+	width:97px;
+	height:33px;
+}
+
+#english{
+	background-position: -105px -1115px;
+	width:97px;
+	height:33px;
+}
+
+#heading_void_space{
+	padding:5px 0 0 0;
+	height:36px;
+}
+
+#info_navigation{
+	width:195px;
+	margin:0 auto;
+}
+
+#content-sidebar #info_navigation{
+	padding:0 0 20px 0;
+}
+
+#info_navigation li{
+	margin:0 0px 10px 10px;
+	border-bottom:1px solid #b9b9b9;
+}
+
+#info_navigation li a, #safe_banking{
+	color: #2662A1;
+    height: 37px;
+    margin: 10px 0 0;
+    padding: 10px 0 0 51px;
+}
+
+#pay{
+	background-position: 4px -400px !important;
+	padding: 5px 0 7px 51px !important;
+}
+
+#toll{
+	background-position: 4px -457px !important;
+    padding: 7px 0 2px 52px !important;
+}
+
+#info_navigation .toll_inner{
+    padding: 0px 0 20px 52px !important;
+}
+
+#toll span{
+	color:#cc6834;
+}
+
+#safe_banking{
+	background-position: 4px -498px !important;
+	padding: 0 0 42px 52px !important;
+}
+
+#merchant{
+	background-position: 4px -737px !important;
+	padding: 0 0 10px 52px !important;
+}
+
+#info_navigation #safe_banking a{
+	background: none repeat scroll 0 0 transparent;
+	display: inline !important;
+	height: auto;
+	margin: 0;
+	padding: 0;
+    color: #0358AB;	
+}
+
+#safe_banking span{
+	color:#505050;
+}
+
+#verisign{
+	background-position: -89px -812px !important;
+	height:54px;
+    width: 118px;
+}
+
+#void_border{
+	border:0 ! important;
+	margin-bottom:0 !important;
+}
+/*Home Sidebar Right Ends*/
+
+
+
+/*Inside page content*/
+	/*Bread Crumb*/
+	#bread_crumb{
+		background:#f0f0f0;
+		margin:0 0 26px 0;
+	}
+
+	#breadcrumb_pointer{
+		background: 0 0 #D9E2EB;
+		padding: 9px 10px 12px 7px;
+	}
+
+	#pointer_arrow{
+		background-position:-27px -400px;
+		height: 19px;
+		right: -11px;
+		top: 7px;
+		width: 11px;
+	}
+
+	.breadcrumb_link{
+		margin:0 10px 0 0;
+	}
+
+	.breadcrumb_link:hover{
+		color:#0d4379
+	}
+
+	
+	.breadcrumb_bg{
+		background-position: -20px -434px;
+	} 
+
+	#login_inner_bg{
+		background: -76px -955px;
+		height: 67px;
+		margin:12px -1px -50px 0;
+		width: 144px;
+	}
+	
+	#login_inner{
+		height: 45px;
+		width: 142px;
+		line-height:39px;
+		color:#3b9adc;
+		font-size: 26px;
+		padding: 0 0 0 30px;
+		width: 113px;
+	}
+	/*Bread Crumb Ends*/
+
+	/*Content Area*/
+	#content_area{
+		margin:0px 0 20px 0;
+		padding:0 20px 0 15px;
+		width:735px;
+		background: url("../images/content_sep.png") repeat-y top right;
+	}
+
+	.content_navigation{
+		width:auto;
+		margin: 10px 0;
+	}
+	
+	.content_navigation_alpha{
+		width:50%;
+		margin: 10px 0;
+	}
+
+	.content_navigation li, .content_navigation_alpha li {
+		background: url("../images/parent_bullet.png") no-repeat scroll left 7px transparent;
+		line-height: 20px;
+		margin: 0 0 8px 10px;
+		padding: 0 0 0 15px;
+		width: auto;
+	}
+
+	.last_void_space{
+		margin-bottom:0px !important;
+	}
+	
+	.data_container{
+		background:#efefef;
+		margin:0px 0 3px 0;
+		font-family:arial;
+		padding:10px;
+		background:#e5ecf0
+	}
+
+	.click{
+		color: #515151;
+		line-height: 18px;
+		margin: 2px 0 0 10px;
+		padding: 0 0 0 15px;
+	}
+
+	.click{
+		background: url("../images/accor_icon1.png") no-repeat 0 2px;
+	}
+
+	#content-sidebar{
+		margin: 17px 0 0;
+		width: 230px;
+	}
+
+	#new_user{
+		background: url("../images/new_user.png") no-repeat scroll 0 0 transparent;
+		height: 39px;
+		margin: 0 0 10px 17px;
+		width: 214px;
+	}
+
+	.number_highlight{
+	color:#cf2020;
+	}
+
+	.link_highlight, .content_navigation li a, .content_navigation_alpha li a, .link_highlight:visited, p a{
+		color:#0358AB;
+	}
+
+	.link_highlight:hover, .content_navigation li a:hover, .content_navigation_alpha li a:hover, #content_area p a:hover{
+		color:#2696ff;
+	}
+
+	.faq_block{
+		border-top: 1px dotted #D2CDCD;
+		margin:10px 0 0 0;
+		background: url("../images/faq_ques.png") no-repeat 10px top;	
+		padding: 10px 20px 0 65px;
+		color:#333;
+	}
+
+	.faq_active, .faq_activeOn{
+		background: url("../images/faq_ans.png") no-repeat 10px top!important;	
+	}
+
+	.faq_block p{	
+		color:#333 !important;
+	}
+
+	.faq_ans{
+		line-height:20px;
+		width:100%;
+	}
+
+	.trigger{
+		width:76px;
+		height:36px;
+		margin: 0px 0 0;
+	}
+
+	.trigger_more{
+		background-position: -114px -472px;	
+	}
+
+	.trigger_less{
+		background-position: -114px -531px;	
+	}
+
+	.faq_viewmore{
+		border-top: 1px solid #737373;
+		height: 28px;
+		margin: 20px 0 0;
+	 }
+	.faq_viewmore_expand{
+		background-position: 531px -702px;
+	}
+	.faq_viewmore_collapse{
+		background-position: 531px -756px ! important;
+	}
+
+	.highlt_red{
+		color:#FF0000; 
+	}
+	
+	.email{
+		margin:0 0 -3px 0;
+	}
+	.list_email{
+		margin:0 0 -5px 0;
+	}
+
+	.highlight_box{
+		background:#F9F9F9 ! important; 
+		margin:10px 0 ! important;
+		padding:10px ! important;
+		border:2px solid #ececec;
+		line-height:20px;
+	}
+
+	.highlight_box .content_navigation{
+		margin-top:5px ! important;
+	}
+	.highlight_heading{
+		color:#0e5b83 ! important;
+	}
+
+
+	.highlight_text{
+		color: #0D4379;
+		font-size: 17px;
+		text-align: center;
+		line-height: 26px;	
+	}
+
+	.select_content li{ 
+		display:none;
+	}
+	.select_content li.show_default{
+		display:block;	
+	}
+	
+	.select_content table.show_default{
+		display:table;	
+	}
+
+	.select_container{
+		margin:13px 0 0 72px; 
+		width: 288px;
+	}
+
+	.highlight_select{
+		background: #E4E4E4 url("../images/select-bg.jpg") repeat-x;
+		min-height:67px;
+		padding:17px 0 0 0;
+	}
+
+	.select_container form{
+		margin:0 10px 0 0;
+	}
+	.disclaimer_buttons{
+		margin:15px 0 0 0;
+	}
+	.disclaimer_accept{
+		background-position:-103px -288px;
+		width:106px;
+		height:43px;
+	}
+	
+	.disclaimer_reject{
+		background-position:-103px -352px;
+		width:106px;
+		height:43px;
+	}
+	.sbi_oxipay{
+		background:#f5f5f5 url(../images/oxy_sbi.png) no-repeat right top;
+		padding:10px;
+		margin:5px 0 0 0;
+	}
+	
+	.sbi_instapay{
+		background:#f5f5f5 url(../images/billdesk_sbi.png) no-repeat right top;
+		padding:10px;
+		margin:10px 0 0 0;
+	}
+	.sbi_instapay_inner{
+		width:440px;
+	}
+
+	#ssl_example{
+		background:url("../images/sbi-ssl.png") no-repeat 0 0;
+		width:644px;
+		height:191px;
+		margin:10px 0;
+	}
+
+	.ie-ssl,.mozilla-ssl,.opera-ssl,.chrome-ssl{
+		background: url("../images/browser-ssl.png") no-repeat 0 0;
+		height:26px;
+		padding:10px 0 !important
+	}
+
+	.ie-ssl{
+		 background-position: 11px -3px;
+	}
+	.mozilla-ssl{
+		background-position: 11px -47px;
+	}
+
+	.chrome-ssl{
+		 background-position: 11px -93px;
+	}
+
+	.opera-ssl{
+		background-position: 11px -134px;
+	}
+
+	.accordian_block{
+		background:#f3f3f3 url("../images/accor_bg.png") repeat-x 0 0;
+		border:1px solid #ececec;
+		margin:0px 0 0 15px;
+	}
+	.accordian_trigger{ 
+		color:#6c6c6c;
+		line-height:25px;
+		padding:7px 35px;
+		margin: 0 0 0 -13px;
+		cursor:pointer;
+		background:url("../images/accor_collapse.png") no-repeat 0 7px;
+	}
+	.accordian_trigger_more{
+		background:url("../images/accor_expand.png") no-repeat 0 7px ! important;
+	}
+	
+	.accordian_container{
+		padding:10px;
+		display:none;	
+		background:url("../images/accor_seperator.png") repeat-x 0 0;
+	}
+	.accordian_active{
+		display:block;
+	}
+	.accordian_block_last{
+		border-bottom:1px solid #ececec ! important;
+	}
+	
+	
+	/*Content Tab*/
+	#content-tab{margin:0 auto;width:680px}
+
+	/*Table*/
+	.content_table{
+		margin:5px 0 10px 0;
+		border: 1px solid #CED9EC;
+		border-collapse:collapse;
+		background: url("../images/table_data_bg.png") repeat-y 0 0;
+	}
+
+	.full_bg{
+		background: url("../images/table_data_bg_full.png") repeat-y 0 0 !important;
+	}
+
+	.content_table tr th{
+		background: #fff url("../images/table_header_bg.png") repeat-x 0 0;
+		color:#1F3D71;
+		border-right:1px solid #c4e1fb;
+		padding:7px 0;
+	 }
+
+	.content_table tr td{
+		color:#555;
+		padding:5px 10px;
+		text-align:left;
+		vertical-align:middle;
+		border-bottom: 1px solid #B3C1DB;
+		border-right: 1px solid #CED9EC;
+		
+	}
+
+	.content_table tr th.caption{
+		background: url("../images/table-head.jpg") repeat-x 0 0;
+	}
+
+	.content_table tr td .number_highlight{
+		color:#0358AB
+	}
+
+	.data_head{
+		background:#EFEEEC;
+		text-align:center !important;
+		color:#000;
+		font-weight:bold
+	}
+
+	.text_highlight_positive {
+		color: #26B106;
+	}
+
+	.text_highlight_negative {
+		color:#f94313;
+	}
+
+
+	/*Sitemap*/
+	#sitemap{
+		padding:10px;
+	}
+
+	.block{
+		width:316px;
+		margin:10px 0 0 10px;
+	}
+	
+	.block_border_top{border-top:10px solid #edf4fb;margin-top:10px}
+	.block_border_bot {border-bottom:10px solid #edf4fb;}
+	.use-links{font-size:14px; color: #0358ab !important;font-weight:bold  !important}
+
+	.sitemap_list{
+		padding:8px 0 5px 0;
+		border-left:10px solid #edf4fb;
+		border-right:10px solid #edf4fb;
+		margin:0 0 0px 0;
+	}
+	.table-sitemap{border-left:1px solid #115FB0;border-top:1px solid #115FB0; margin:0 auto}
+	.table-sitemap td, .table-sitemap th{border-right:1px solid #115FB0;border-bottom:1px solid #115FB0; padding:5px}
+	.table-sitemap th{background:#edf4fb;color: #0358ab;font-weight:bold}
+	.table-sitemap td a{color:#4A40B0;font-weight:bold}
+	.postlogin-links h3{background:#EDF4FB;margin:0 0 10px 0;}
+	
+	.title	{
+		background: #eef1f3;
+		padding:5px;
+		margin:0;
+	}
+
+	.sitemap_list li{
+		margin:8px 0 0px 15px;
+		line-height:18px;
+	}
+
+	.sitemap_list a{
+		color:#444;
+	}
+
+
+	.sitemap_list h3{
+		margin:0;
+		background: url("../images/sitemap_icon_sprite.png") no-repeat 0 0;
+	}
+
+	.sitemap_list h4, .sitemap_list h5{
+		font-weight:normal;
+		padding:0;
+		color:#444;
+	}
+
+	#home_bg{
+		background-position: 3px -4px !important;
+	}
+
+	#login_bg{
+		background-position: 2px -400px !important;
+	}
+
+	#whats_new_bg{
+		 background-position: 2px -44px !important;
+	}
+
+	#services_bg{
+		background-position: 2px -266px !important;
+	}
+	
+	#value_services_bg{
+		background-position: 2px -486px !important;
+	}
+
+	#faq_bg{
+		background-position: 2px -176px !important;
+	}
+
+	#resources_bg{
+		 background-position: 2px -132px !important;
+	}
+
+	#useful_links_bg{
+		background-position: 2px -221px !important;
+	}
+
+	#help_bg{
+		 background-position: 2px -358px !important;
+	}
+
+	#security_bg{
+		background-position: 2px -444px !important;
+	}
+
+	#about_verisign_bg{
+		background-position: 2px -314px !important;
+	}
+
+	#block_alpha{
+		width:489px;
+		margin:0 22px 0 0;
+	}
+
+	#block_beta{
+		width:204px;
+		background: url("../images/line_shawdow.png") no-repeat top left;
+		height:562px;
+		padding:10px
+	}
+
+	#card_list li{
+		margin:0 0 20px 0
+	}
+
+	#card_list{
+		margin:45px 0 0 0 !important;
+	}
+
+	#card_list li a{
+		background: url("../images/cards_sprite.png") no-repeat 0 0;
+
+	}
+
+	
+	#atm{
+		 background-position: -8px -192px !important;
+		 height: 41px;
+	}
+
+	#visa{
+		  background-position: -19px -99px !important;
+		  height: 35px;
+	 }
+
+	#master{
+		 background-position: 6px -11px !important;
+		height: 50px;
+	}
+	
+	#rupay{
+		 background-position: 0 -285px !important;
+		padding:18px 0 0 0;
+		margin:10px 0 0 0;
+	}
+
+	.card_title{
+		background: none repeat scroll 0 0 #EFEFEF;
+		font: bold 13px/18px arial;
+		margin-left: 14px !important;
+		padding: 6px;
+	}
+	
+	#netbanking_branches{
+		margin:0 0px 0 10px;
+	}
+
+	.netbanking_button{
+		background-position:-58px -643px; 
+		height: 35px;
+		width: 200px;
+	}
+	
+	.hindi_netbanking_branches .netbanking_button{
+		background-position:-58px -1272px; 
+	}
+	
+	.netbanking_button_up{
+		background-position:-58px -590px ! important; 
+	}
+	
+	.hindi_netbanking_branches .netbanking_button_up{
+		background-position:-58px -1196px ! important; 
+	}
+	
+	
+	#netbanking_popup{ 
+		border-bottom:5px solid #cbcbcb;
+		z-index:1000;
+		left:0px;
+		top:0px;
+		background:#d9d9d9 url("../images/netbanking_repeat.png") repeat-x; 
+		width:100%;
+	}
+	
+	#netbanking_content{
+		background:url("../images/netbanking_img.png") no-repeat left top; 
+		height:123px;
+		padding: 10px 0 0 255px;
+		color:#6f6f6f;
+		line-height:20px;
+	}
+	
+	#netbanking_content_heading{
+		color:#0197c0;
+		font-size:15px;
+		font-weight:bold;
+		margin: 5px 0;
+	}
+	
+	.page_navigation li{ 
+		background: url("../images/icon.png") no-repeat scroll -20px -489px transparent;
+		display: inline !important;
+		line-height: 22px;
+		margin: 0 3px 15px 0;
+		text-align: center;
+		width: 20px;
+	}
+	
+	.activePage {
+		background: url("../images/icon.png") no-repeat scroll -15px -536px transparent ! important;
+		line-height: 23px ! important;
+		width: 29px ! important;
+		margin-top:-1px !important;
+	}
+	
+	.activePage a{
+		color: #CC6834 !important;
+		font-weight:bold;
+	}
+	
+	.page_navigation li a{
+		color:#5e5959;
+	}
+	
+	.form{
+		margin:10px 0;
+	}
+	
+	#contact_us{
+		background: url("../images/contactus_bg.jpg") no-repeat 0 0;
+		height:230px;
+		padding:0px 10px 0 10px;
+		margin:10px 0 0 0;
+		overflow: hidden;
+	}
+	#contact_us p{
+		color:#fff;
+		width:370px;	
+		line-height: 18px;
+	}
+	.phone_number{
+		background-position: -130px -67px;
+		padding:0 0 0 35px ! important;
+		line-height:24px ! important;
+	}
+
+	#contact_us .number_highlight{
+		color:#ede98a;
+	}
+	
+	#moveToTop{ 
+		bottom: 0;
+		margin: 0 0 100px;
+		padding: 5px;
+		position:absolute;
+		right: 205px;
+		background:url("../images/move-to-top.gif") no-repeat;
+		width:37px;
+		height:66px;
+	}
+
+	.back_bg{
+		background-position:-129px -234px;
+		width:48px;
+		height:30px;
+	}
+
+	.back{
+		width:43px;
+		height:24px;
+	}
+
+	.navigation_a, .navigation_b, .navigation_c, .navigation_d{ 
+		width:180px; 
+		margin: 10px 2px 0 0 !important;
+		padding:5px 0!important;
+	}
+
+	.navigation_a{ 
+		background:url(../images/content_nav_bg1.png) repeat-x;
+	}
+
+	.navigation_b{
+		background:url(../images/content_nav_bg2.png) repeat-x;
+	}
+
+	.navigation_c{
+		background:url(../images/content_nav_bg3.png) repeat-x;
+	}
+
+	.navigation_d{
+		background:url(../images/content_nav_bg4.png) repeat-x;
+	}
+
+	.product_container {
+		background:url(../images/product_content_bg.png) repeat-x bottom;
+		padding:10px;
+	}
+
+	.expand_collapse_parent li{
+		background:url(../images/tax_bullet1.png) no-repeat 0 12px;
+		padding:10px 0 10px 0px;
+		line-height:20px;
+	}
+
+	.expand_collapse_parent li a{
+		color:#707070;
+		padding:0 0 0 20px;
+	}
+
+	.expand_collapse_child, .expand_collapse_subchild{ 
+		margin:10px 0 0 20px ! important;
+	}
+
+	.expand_collapse_child li{
+		background:url(../images/tax_bullet2.png) no-repeat 0 10px;
+		padding:5px 0 5px 0px;
+	}
+
+	.expand_collapse_child li a{
+		color:#117ca2;
+		padding:0 0 0 20px;
+	}
+
+	.expand_collapse_subchild{
+		background:url(../images/tax_bg.png) repeat-x bottom;
+		padding:0 10px!important;
+		
+	}
+
+	.expand_collapse_subchild li{
+		background:url(../images/tax_bullet3.png) no-repeat 0 9px;
+	}
+
+	.expand_collapse_subchild li{
+		color:#6d6d6d;
+		padding:3px 0 3px 20px;
+	}
+
+	.expand_collapse_subchild li a{
+		padding:0px;
+		margin:0px;
+		font-weight:normal;
+		font-size: 12px;
+	}
+
+	#virtual_card_img{
+		margin:0 10px 0 0;
+	}
+
+	.equal_height{
+		min-height: 535px;
+	}
+
+	.word_icon{
+		background-position:-138px -139px; 
+	}
+
+	.pdf_icon{
+		background-position:-138px -178px; 
+	}
+
+	.faq_ques .number_highlight, .accordian_container .number_highlight{
+		color:#333333 !important;
+	}
+
+
+	/*Content Area Ends*/
+
+
+/*Inside page content Ends*/
+
+/*----- Content Ends -----*/
+
+/*Footer*/
+#footer{
+	background: #dfdcdc url("../images/footer_bg.png") repeat-x top center;
+	border-bottom:1px solid #adadad;
+}
+
+#how_to_secure{
+	top:-7px;
+	left:63px;
+	background-position: -4px -891px;
+	width:289px;
+	height:36px;
+}
+
+#secure_safe_text{
+	margin: 7px 0 0 52px !important;
+}
+
+#footer_navigation{
+	margin:15px 0 0 0;
+}
+
+#footer_navigation li{
+	background: url("../images/footer_navigation_separator.png") no-repeat top right;
+	height:12px;
+	width:auto;
+}
+
+#footer_navigation li a{
+	color:#1f67b3;
+	margin:-3px 10px 0 10px;
+	vertical-align:top;
+}
+
+#void_bg{
+	background:none !important;
+}
+
+#footer_base{
+	margin:10px 0 8px 0;
+}
+
+#copyright{
+	margin:28px 0 0 20px;
+}
+
+#browser_view{
+	margin:28px 20px 0 0;
+}
+/*Footer Ends*/
+
+/*IE6 alert Box*/
+.overlay{
+	width:100%;
+	height:722px;
+	background:#999999;
+	z-index:10000;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	top:0px;
+	left:0;
+	position:fixed;
+}
+
+.ie6_alertbox{
+	z-index:100001;
+	background:#fff;
+	top:170px;
+	right:0px;
+ 	margin-right: -741px;	
+}
+
+.alertbox_icon_container{
+	padding:20px;
+	width: 170px;
+}
+
+.alertbox_logo{
+	background: url("../images/ie6_logo.jpg") no-repeat;
+	width:168px;
+	height:48px;
+}
+
+.alertbox_icon{
+	background: url("../images/ie6_icon.jpg") no-repeat;
+	width:98px;
+	height:106px;
+	margin:45px 0 0 40px;
+}
+
+.alertbox_content{
+	background:#efefef;
+	width:500px;
+	padding:44px 0 20px 30px;
+}
+
+.alertbox_close{
+	background: url("../images/ie6_close.jpg") no-repeat;
+	width:68px;
+	height:28px;
+	margin-top: -35px;
+}
+
+.alertbox_content p{
+	padding:10px 0 10px 0;
+}
+
+.link_for_ie{
+	color:#02556a;
+	padding:10px 0 10px 0;
+}
+
+/*IE6 alert Box*/
+
+.lightbox_content{ position:fixed; width:600px; height:200px; background:#fff; border:2px solid; display:none; top:100px; left:100px; z-index:1000000000;}
+
+.lightbox_con a, .lightbox_con span{ display:block; width:85%;}
+
+/* Search CSS */
+.search_box{
+	float:right; 
+	padding-right:10px
+}
+#searchResults{
+	margin:20px
+}
+.search_ul{
+	list-style:none; 
+	margin:25px;
+}
+.search_ul li{
+	padding:0px 0;
+	line-height:18px
+}
+.search_ul li a{font-weight:bold}
+#brval{
+	float:left;
+	height:17px;
+	text-transform: lowercase;
+	width:130px
+}
+#target{
+	background:#003876 url('../images/search.png') no-repeat 0 -1px; 
+	display:inline-block; 
+	width:24px; 
+	height:23px; 
+	cursor:pointer;
+}
+.ui-helper-hidden-accessible {
+	display:none;
+}
+.ui-autocomplete {
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: default;
+}
+.ui-widget {
+	color: #000000;
+	background:#FFFFFF;
+}
+.ui-widget-content {
+	border: 1px solid #2272C7;
+	line-height:20px;
+	padding:5px
+}
+.ui-widget-content .ui-state-focus {
+	background:#3399FF;
+	font-weight: bold;
+	color: #FFF;
+	padding:0;
+	margin:0
+}
+.link_des{
+	font-weight:normal; 
+}
+/*  Search Ends  */
+
+/*Lightbox*/
+.lightbox_loyality{
+	padding:0;
+	width:auto;
+	position:relative;
+	background: url("../images/lb_bg.png") repeat-y 0 0;
+	border:1px solid #919191;
+	width:500px;
+	height:auto;
+}
+.lb_content{
+	background:#fff;
+	margin:10px;
+	overflow:hidden;
+	padding:20px;
+	font-size:14px;
+	line-height:20px
+}
+.clx{
+	position: absolute;
+    right: -12px;
+    top: -10px;
+}
+.clx img{
+	border:none
+}
+.lb_content_ser{
+	background:#fff;
+	margin:10px;
+	overflow-y:scroll;
+	padding:20px;
+	font-size:12px;
+	height:400px;
+	width:600px;
+}
+.litebox_ser{
+	width:858px; margin:0 0 0 20px;  padding:30px 0 30px 110px;
+	background:#eef1f3 url("../images/service_icon.png") no-repeat 20px;
+}
+
+.litebox_ser a{
+	color:#454545;
+	padding:5px 0 5px 0px;
+	font-size:13px; 
+	line-height:20px;
+	font-weight:bold;	
+}
+.color1{color:#F3642C;}
+.color2{
+	color:#0358ab;
+	font-size:16px; 
+
+}
+.color3{color:#34A434}
+/*Lightbox*/
+
+
+.lightbox_content_login{
+	background:#fff;
+	padding:10px;
+	overflow:hidden;
+	width:550px;
+	border:2px solid #0083B9;
+	font-family:arial;
+}
+
+#genuine_appln{
+	height:400px;
+    overflow-y:scroll;
+}
+
+.lightbox_content_login h5{
+	color:#006599;
+    font-size:14px;
+    font-weight:bold;
+    margin:0 0 7px;
+    padding:0;
+}
+
+.lightbox_content_login h6{
+	color:#00728a;
+    font-size:12px;
+    font-weight:bold;
+    margin:0 0 7px;
+    padding:0;
+}
+
+.lightbox_content_login p{
+	color:#444;
+	line-height:20px;
+}
+
+.lightbox_content_login a{
+	color:#0195df;
+}
+
+.lightbox_content_login a:hover{
+	text-decoration:underline;
+}
+
+
+.lightbox_content_login ul {
+	margin:10px 0 0;
+	color:#444;
+}
+
+.lightbox_content_login ul li{
+	margin:5px 0;
+}
+
+.lightbox_content_login ul li span {
+    color: #006599;
+    font-weight: bold;
+}
+
+.clx {
+    position:absolute;
+    right:-12px;
+    top:-10px;
+	background:url('../images/close.png') no-repeat 0 0;
+	width:35px;
+	height:35px;
+}
+
+.tech_app {
+    background: #fff;
+    width: 935px;
+}
+
+.tlc_banner {
+    background: url("../images/tech_learn.jpg") no-repeat 0 0;
+    border: 1px solid #0090cc;
+    height: 284px;
+    margin: 15px auto;
+    position: relative;
+    width: 905px;
+}
+
+.venue {
+    background: url("../images/385_venue.png") no-repeat 0 0;
+    bottom: 12px;
+    display: block;
+    height: 17px;
+    left: 216px;
+    position: absolute;
+    width: 216px;
+}

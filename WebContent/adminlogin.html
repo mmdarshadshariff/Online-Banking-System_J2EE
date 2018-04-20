@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head><title>The Royal Bank of Madras!</title></head>
+<script type="text/javascript">
+function check1()
+{
+
+if(document.signup.t1.value=="")
+{
+alert("Please Enter valid Credentials");
+return false;
+}
+
+if(document.signup.t4.value=="")
+{
+alert("Please Enter valid Credentials");
+return false;
+}
+
+return true;
+
+}
+</script>
+<style>
+body
+{
+   background-image: url("mainbga.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+b
+{
+                padding: 5px 15px;
+                text-align: center;
+                font-family: "Baskerville Old Face", Times, serif;
+                font-size: 25px;
+                 color: black;
+    		display:inline-block;
+}
+h1
+{
+                text-align: center;
+                font-family: "Berlin Sans FB Demi", Times, serif;
+                font-size: 75px;
+                 color: BLACK;
+}
+a
+ {
+    padding: 5px 15px;
+    text-decoration: underline;
+    text-align: center;
+    font-family: "Arabic Typesetting", Times, serif;
+    font-size: 49px;
+    color: #c5d400;
+    text-shadow: 3px 0 1px #000000;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 4px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: red;
+    color: white;
+}
+</style>
+<body>
+<br><br><br>
+<center><h1>Login Form</h1></center>
+<br>
+<form action="AdminServlet" name="signup" method="post" onsubmit="return check1()">
+<div class="data">
+<center>
+<label><b>Username:</b></label>
+                     <input class="textbox" type="text" name="t1" size="40" 
+                           style="height: 20px;" value=""  pattern="[a-zA-Z].{6,}" placeholder="Enter your username"><br><br> 
+<label><b>Password:</b></label>
+                           <input class="textbox" type="password" name="t4" id="2" 
+                           size="40" style="height: 20px;" value="qwertyuiop"
+                           placeholder="Enter your password"> <br>
+                     <br> <input class="submit" type="submit" id="11"
+                           value="LOG IN "><br><br>
+                          
+                         
+</center>
+</form>
+
+</body>
+</html>
